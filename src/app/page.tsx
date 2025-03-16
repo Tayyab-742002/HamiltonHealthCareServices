@@ -3,6 +3,10 @@ import DifferentSection from "@/components/different/different";
 import HeroSection from "@/components/hero/hero";
 import { Navbar } from "@/components/navbar/navbar";
 import TeamSection from "@/components/team/team";
+import HelpingHealthcareCarousel from "@/components/testimonials/Testimonials";
+import JoinTeam from "@/components/jointeam/JoinTeam";
+import WhereWeHire from "@/components/whowehire/WhoWeHire";
+import {Footer} from "@/components/footer/Footer";
 
 export default function Home() {
   return (
@@ -12,7 +16,11 @@ export default function Home() {
         <HeroSection />
         <CounterSection />
         <TeamSection />
-        <DifferentSection />
+        <JoinTeam />
+        <HelpingHealthcareCarousel />
+        <WhereWeHire />
+        {/* <DifferentSection /> */}
+        <Footer />
       </main>
     </div>
   );

@@ -6,33 +6,43 @@ import { Button } from "@/components/ui/button";
 export default function HeroSection() {
   return (
     <section className="relative flex items-center justify-center w-full h-[400px] lg:h-screen overflow-hidden">
+      {/* Background Image */}
       <Image
         src="/hero-image.jpg"
         alt="Group of healthcare professionals"
         fill
         className="object-cover"
+        priority
       />
 
-      {/* Gradient Overlay Covering the Entire Section */}
+      {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-blue-950 to-transparent z-20" />
 
-      {/* Main content container */}
-      <div className="relative z-60 container mx-auto flex flex-col md:flex-row items-center px-40 py-16 md:py-24">
+      {/* Main Content */}
+      <div className="relative z-30 container mx-auto flex flex-col lg:flex-row items-center px-6 md:px-16 lg:px-24 py-12 md:py-20">
         {/* Text Content */}
-        <div className="text-left">
-          <h1 className="text-5xl md:text-8xl text-white">
-            The Best-in-Class
+        <div className=" text-left lg:text-left max-w-2xl">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
+            Placements to
             <br />
-            HealthcareStaffing
+            suit your
             <br />
-            Agency
+            personal and
+            <br />
+            professional
+            <br />
+            needs
           </h1>
-          <p className="mt-4 text-white/90">
+          <p className="mt-4 text-white/90 text-lg sm:text-xl">
             Over 35 years as a trusted support to large and small healthcare
             facilities
           </p>
+
+          {/* Updated Button */}
           <div className="mt-6 flex justify-start">
-            <Button variant="default">About Us</Button>
+            <Button className="bg-white text-black text-lg px-6 py-3 rounded-lg hover:bg-gray-200 transition">
+              About Us
+            </Button>
           </div>
         </div>
       </div>
