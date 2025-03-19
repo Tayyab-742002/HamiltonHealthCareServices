@@ -7,18 +7,26 @@ export function Footer() {
       {/* Top Section */}
       <div className="container-xl pb-8 px-4  sm:px-6 lg:px-8">
         <div className="flex flex-col items-start">
-          <Link href="#" className="bg-white p-4 mb-8 -translate-y-1/2">
+          {/* <Link href="#" className="bg-white p-4 mb-8 -translate-y-1/2">
             <Image
               width={56}
               height={89}
-              src="https://www.carecor.com/wp-content/uploads/2020/07/carecor-logo.svg"
+              src="/logo.png"
               alt="Carecor Health Services"
               className="w-56 sm:w-64 md:w-52 lg:w-50"
-              decoding="async"
-              loading="lazy"
+              // decoding="async"
+              // loading="lazy"
+            />
+          </Link> */}
+          <Link href="/" className="bg-white p-4 mb-8 -translate-y-1/2">
+            <Image
+              src="/logo.png"
+              alt="Carecor Health Services"
+              width={200}
+              height={200}
+              className="w-56 sm:w-64 md:w-52 lg:w-50"
             />
           </Link>
-
           <div className="w-full grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 lg:justify-items-center">
             {/* Contact Column */}
             <div className="space-y-4 mt-4">

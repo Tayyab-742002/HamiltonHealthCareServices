@@ -7,6 +7,7 @@ import { Menu, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { navigationConfig } from "@/config/navigation";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +19,12 @@ export function Navbar() {
       <div className="container flex h-16 items-center justify-between px-4">
         {/* Logo */}
         <Link href="/" className="text-lg font-bold">
-          YourLogo
+          <Image
+            src="/logo.png"
+            alt="Carecor Health Services"
+            width={200}
+            height={200}
+          />
         </Link>
 
         {/* Desktop Navigation */}
@@ -63,7 +69,7 @@ export function Navbar() {
                 Menu
               </div>
               {navItems.map((item) => (
-                <div 
+                <div
                   key={item.name}
                   className="flex justify-between border-b-1 border-gray-300"
                 >
