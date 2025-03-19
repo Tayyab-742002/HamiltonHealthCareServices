@@ -8,7 +8,7 @@ export default function HeroSection() {
     <section className="relative flex items-center justify-center w-full h-[400px] lg:h-screen overflow-hidden">
       {/* Background Image */}
       <Image
-        src="/hero-image.jpg"
+        src="/hero-main.jpg"
         alt="Group of healthcare professionals"
         fill
         className="object-cover"
