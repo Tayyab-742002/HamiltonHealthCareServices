@@ -1,12 +1,13 @@
 import CounterSection from "@/components/counter/counter";
 import DifferentSection from "@/components/different/different";
 import HeroSection from "@/components/hero/hero";
-import { Navbar } from "@/components/navbar/navbar";
+
 import TeamSection from "@/components/team/team";
 import HelpingHealthcareCarousel from "@/components/testimonials/Testimonials";
 import JoinTeam from "@/components/jointeam/JoinTeam";
 import WhereWeHire from "@/components/whowehire/WhoWeHire";
-import {Footer} from "@/components/footer/Footer";
+import {Footer} from "@/components/layouts/footer/Footer";
+import { Navbar } from "@/components/layouts/navbar/navbar";
 
 export default function Home() {
   return (

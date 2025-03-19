@@ -1,4 +1,3 @@
-// components/navbar.tsx
 "use client";
 import { useState } from "react";
 import Link from "next/link";
@@ -6,16 +5,13 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { navigationConfig } from "@/config/navigation";
+import { usePathname } from "next/navigation";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-
-  const navItems = [
-    { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "Services", path: "/services" },
-    { name: "Contact", path: "/contact" },
-  ];
+  const pathname = usePathname();
+  const navItems = navigationConfig.mainNav;
 
   return (
     <nav className="sticky top-0 z-99 w-full border-b bg-background/95 backdrop-blur">
@@ -31,7 +27,12 @@ export function Navbar() {
             <Link
               key={item.name}
               href={item.path}
-              className="text-sm font-medium transition-colors  text-foreground/60 hover:text-foreground/80"
+              className={cn(
+                "text-sm font-medium transition-colors",
+                pathname === item.path
+                  ? "text-foreground"
+                  : "text-foreground/60 hover:text-foreground/80"
+              )}
             >
               {item.name}
             </Link>
@@ -54,22 +55,27 @@ export function Navbar() {
           {/* Mobile Navigation Content */}
           <SheetContent
             side="right"
-            className="w-[300px] sm:w-[400px]   z-100 [&>button]:hidden"
+            className="w-[300px] sm:w-[400px] z-100 [&>button]:hidden"
             onInteractOutside={() => setIsOpen(false)}
           >
-            <div className="flex flex-col gap-4 ">
-              <div className="text-center bg-blue-950  text-white p-5 text-lg">
+            <div className="flex flex-col gap-4">
+              <div className="text-center bg-blue-950 text-white p-5 text-lg">
                 Menu
               </div>
               {navItems.map((item) => (
-                <div className="flex justify-between ">
+                <div 
+                  key={item.name}
+                  className="flex justify-between border-b-1 border-gray-300"
+                >
                   <Link
-                    key={item.name}
                     href={item.path}
                     onClick={() => setIsOpen(false)}
                     className={cn(
-                      "px-4 py-2  font-medium transition-colors text-lg border-b-1 border-gray-300",
-                      "hover:bg-accent hover:text-accent-foreground "
+                      "px-4 py-2 font-medium transition-colors text-lg w-full",
+                      "hover:bg-accent hover:text-accent-foreground",
+                      pathname === item.path
+                        ? "text-foreground"
+                        : "text-foreground/60"
                     )}
                   >
                     {item.name}
