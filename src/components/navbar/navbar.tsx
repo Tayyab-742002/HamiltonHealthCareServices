@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu } from "lucide-react";
+import { Menu, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export function Navbar() {
@@ -47,29 +47,35 @@ export function Navbar() {
               className="md:hidden"
               aria-label="Open menu"
             >
-              <Menu className="h-5 w-5" />
+              <Menu className="!h-full !w-full opacity-60" />
             </Button>
           </SheetTrigger>
 
           {/* Mobile Navigation Content */}
           <SheetContent
             side="right"
-            className="w-[300px] sm:w-[400px] z-100"
+            className="w-[300px] sm:w-[400px]   z-100 [&>button]:hidden"
             onInteractOutside={() => setIsOpen(false)}
           >
-            <div className="flex flex-col gap-4 pt-6">
+            <div className="flex flex-col gap-4 ">
+              <div className="text-center bg-blue-950  text-white p-5 text-lg">
+                Menu
+              </div>
               {navItems.map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.path}
-                  onClick={() => setIsOpen(false)}
-                  className={cn(
-                    "px-4 py-2 text-sm font-medium transition-colors",
-                    "hover:bg-accent hover:text-accent-foreground rounded-md"
-                  )}
-                >
-                  {item.name}
-                </Link>
+                <div className="flex justify-between ">
+                  <Link
+                    key={item.name}
+                    href={item.path}
+                    onClick={() => setIsOpen(false)}
+                    className={cn(
+                      "px-4 py-2  font-medium transition-colors text-lg border-b-1 border-gray-300",
+                      "hover:bg-accent hover:text-accent-foreground "
+                    )}
+                  >
+                    {item.name}
+                  </Link>
+                  <ChevronRight className="text-primary mr-2 !opacity-50" />
+                </div>
               ))}
             </div>
           </SheetContent>

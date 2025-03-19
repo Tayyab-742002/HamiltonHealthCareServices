@@ -22,7 +22,7 @@ export default function HeroSection() {
       <div className="relative z-30 container mx-auto flex flex-col lg:flex-row items-center px-6 md:px-16 lg:px-24 py-12 md:py-20">
         {/* Text Content */}
         <div className=" text-left lg:text-left max-w-2xl">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
+          {/* <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
             Placements to
             <br />
             suit your
@@ -32,10 +32,10 @@ export default function HeroSection() {
             professional
             <br />
             needs
-          </h1>
+          </h1> */}
           <p className="mt-4 text-white/90 text-lg sm:text-xl">
-            Over 35 years as a trusted support to large and small healthcare
-            facilities
+            Over 30 years of providing trusted healthcare support to private
+            homes and healthcare facilities.
           </p>
 
           {/* Updated Button */}

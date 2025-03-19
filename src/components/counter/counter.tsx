@@ -35,7 +35,7 @@ function AnimatedCounter({
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="counter-value text-[4.5rem] font-semibold"
+        className="counter-value text-[4.5rem] "
       >
         {value.toLocaleString()}
       </motion.div>
@@ -58,7 +58,7 @@ export default function CounterSection() {
       <div className="container" id="counter">
         <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2  place-items-center px-20">
           <AnimatedCounter
-            target={41}
+            target={30}
             duration={2}
             label="Years in Operation"
           />
