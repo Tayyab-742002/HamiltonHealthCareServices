@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function Footer() {
   return (
-    <footer className="text-white bg-blue-950" data-aos="fade">
+    <footer className="text-white bg-[#070F2B] text-[0.8rem]" data-aos="fade">
       {/* Top Section */}
       <div className="container-xl pb-8 px-4  sm:px-6 lg:px-8">
         <div className="flex flex-col items-start">
@@ -125,18 +125,18 @@ export function Footer() {
       </div>
 
       {/* Bottom Section */}
-      <div className="bg-blue-900 py-6">
+      <div className="bg-dark-blue py-6">
         <div className="container-xl px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row items-center justify-around gap-4">
+          <div className="flex flex-col md:flex-row items-center justify-around gap-2">
             {/* Social Links */}
-            <div className="flex space-x-6">
+            <div className="flex space-x-2">
               {[
                 {
                   name: "Facebook",
                   url: "https://www.facebook.com/CarecorHealth/",
                   icon: (
                     <svg
-                      className="w-6 h-6"
+                      className="lg:w-6 lg:h-6 w-4 h-4"
                       fill="currentColor"
                       viewBox="0 0 24 24"
                     >
@@ -149,7 +149,7 @@ export function Footer() {
                   url: "https://www.instagram.com/carecorhealth/",
                   icon: (
                     <svg
-                      className="w-6 h-6"
+                      className="lg:w-6 lg:h-6 w-4 h-4"
                       fill="currentColor"
                       viewBox="0 0 24 24"
                     >
@@ -162,7 +162,7 @@ export function Footer() {
                   url: "https://www.linkedin.com/company/carecor-health-services/",
                   icon: (
                     <svg
-                      className="w-6 h-6"
+                      className="lg:w-6 lg:h-6 w-4 h-4"
                       fill="currentColor"
                       viewBox="0 0 24 24"
                     >
@@ -184,11 +184,6 @@ export function Footer() {
               ))}
             </div>
 
-            {/* Copyright */}
-            <div className="text-center md:text-left">
-              Carecor Health Services Ltd 2025
-            </div>
-
             {/* Policy Links */}
             <div className="flex flex-wrap justify-center gap-4">
               {[
@@ -200,11 +195,15 @@ export function Footer() {
                 <Link
                   key={title}
                   href={`https://www.carecor.com${url}`}
-                  className="text-sm hover:text-primary-foreground transition-colors"
+                  className="text-sm hover:text-primary-foreground transition-colors underline"
                 >
                   {title}
                 </Link>
               ))}
+            </div>
+            {/* Copyright */}
+            <div className="text-center md:text-left">
+              Carecor Health Services Ltd 2025
             </div>
           </div>
         </div>

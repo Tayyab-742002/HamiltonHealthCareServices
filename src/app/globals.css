@@ -10,6 +10,7 @@
 }
 @theme inline {
   --color-dark-blue: var(--dark-blue);
+  --color-dark-blue-primary: var(--dark-blue-primary);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -54,6 +55,7 @@
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --dark-blue: oklch(28.09% 0.0843 271.62);
+  --dark-blue-primary: oklch(26.21% 0.0095 248.19);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
