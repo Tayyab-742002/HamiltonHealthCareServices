@@ -9,7 +9,7 @@ export default function MedicalCare() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-gray-50 rounded-xl shadow-lg overflow-hidden">
             <div className="p-8 md:p-12">
-              <h2 className="text-3xl font-bold text-yellow-700 mb-6">
+              <h2 className="text-3xl font-bold text-[#E85C0D] mb-6">
                 We provide a wide range of medical services tailored to meet
                 your needs.
               </h2>
