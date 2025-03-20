@@ -9,7 +9,7 @@ export default function DementiaCare() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-xl shadow-lg overflow-hidden">
             <div className="p-8 md:p-12">
-              <h2 className="text-3xl font-bold text-[#E85C0D] mb-6">
+              <h2 className="text-3xl font-bold text-center text-[#E85C0D] mb-6">
                 Dementia and Alzheimer’s Care at Home
               </h2>
               <p className="text-gray-700 text-lg leading-relaxed mb-8">
