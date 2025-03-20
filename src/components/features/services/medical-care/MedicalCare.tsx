@@ -10,16 +10,15 @@ export default function MedicalCare() {
           <div className="bg-white rounded-xl shadow-lg overflow-hidden">
             <div className="p-8 md:p-12">
               <h2 className="text-3xl font-bold text-[#E85C0D] mb-6">
-                Personal Care Services
+                We provide a wide range of medical services tailored to meet
+                your needs.
               </h2>
               <p className="text-gray-700 text-lg leading-relaxed mb-8">
-                For personalized support tailored to your needs, our Personal
-                Care services at Bayshore Home Health offer compassionate
-                assistance with daily activities. Whether you require help with
-                bathing, dressing, grooming, or mobility, our professional
-                caregivers are dedicated to enhancing your comfort and
-                well-being. Trust Bayshore for reliable, quality care that
-                allows you to maintain your lifestyle with confidence.
+                Our experienced nurses and health care professionals will work
+                with you to design a personalized care plan to help you recover
+                from illness, injury or other medical conditions in the comfort
+                of your home. In this section, you’ll find information about our
+                medical services.
               </p>
               {/* <div className="flex justify-center">
                 <Button
