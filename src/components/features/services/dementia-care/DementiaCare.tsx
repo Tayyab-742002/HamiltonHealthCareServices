@@ -20,7 +20,7 @@ export default function DementiaCare() {
                 caregiver. In the early stages of dementia, the individual may
                 feel everything is under control but as the disease progresses
                 so does the degree of care sometimes even leading to 24/7
-                assistance. <br />
+                assistance. <br /> <br />
                 Dementia is an overall term used to describe various brain
                 disorders caused by physical changes in the brain. The changes
                 in the brain occur due to loss of cells and the breakdown of
