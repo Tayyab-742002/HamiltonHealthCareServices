@@ -35,7 +35,7 @@ function AnimatedCounter({
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="counter-value text-[4.5rem] "
+        className="counter-value text-[3.5rem] text-blue-800"
       >
         {value.toLocaleString()}
       </motion.div>
