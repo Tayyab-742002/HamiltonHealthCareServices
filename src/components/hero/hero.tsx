@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -40,9 +41,11 @@ export default function HeroSection() {
 
           {/* Updated Button */}
           <div className="mt-6 flex justify-start">
-            <Button className="bg-white text-black text-lg px-6 py-3 rounded-lg hover:bg-gray-200 transition">
-              About Us
-            </Button>
+            <Link href="/about">
+              <Button className="bg-white text-black text-lg cursor-pointer px-6 py-3 rounded-lg hover:bg-gray-200 transition">
+                About Us
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
