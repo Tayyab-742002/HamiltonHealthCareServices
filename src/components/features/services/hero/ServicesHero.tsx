@@ -6,7 +6,7 @@ export default function ServicesHero() {
   return (
     <section className="relative h-[300px] md:h-[400px] flex items-center">
       <Image
-        src="/about-hero.jpg"
+        src="/services-hero.jpg"
         alt="Healthcare professionals providing care"
         fill
         className="object-cover"

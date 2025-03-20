@@ -21,7 +21,7 @@ export default function SpecializedCare() {
   ];
 
   return (
-    <section className="py-16 bg-white" data-aos="fade-up">
+    <section className=" bg-white" data-aos="fade-up">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold text-blue-950 text-center mb-12">
           Specialized Care Services
