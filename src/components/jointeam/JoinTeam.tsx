@@ -21,10 +21,10 @@ export default function JoinTeam() {
             className="bg-cyan-700 p-6 rounded-lg text-white shadow-lg flex flex-col
              w-full max-w-[350px] "
           >
-            <p className="text-sm uppercase opacity-80">About Carecor</p>
+            <p className="text-sm uppercase opacity-80">About Hamilton</p>
             <h2 className="text-3xl font-bold mb-3">Who We Hire</h2>
             <p className="text-lg opacity-90 mb-5 flex-grow">
-              Carecor employs healthcare workers from a variety of
+              Hamilton employs healthcare workers from a variety of
               patient-facing backgrounds.
             </p>
             <Button className="w-full bg-white text-cyan-700 hover:bg-gray-200 text-lg py-3">
