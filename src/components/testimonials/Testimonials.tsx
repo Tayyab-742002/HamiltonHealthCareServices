@@ -9,7 +9,7 @@ const testimonials = [
   {
     name: "Gerby Malanay",
     role: "Staffing Office Supervisor",
-    image: "/test1.jpg",
+    image: "/Gerby-Malanay.jpg",
     quote:
       "When the workers know we can help design their work schedule, it builds up a level of trust with us. That’s one of the advantages of working for Carecor; you get to pick the shifts and the dates you want to work.",
     link: "https://www.carecor.com/news/helping-healthcare-workers-every-day-gerby-malanay/",
@@ -17,7 +17,7 @@ const testimonials = [
   {
     name: "Justine Hayashi",
     role: "Staffing Coordinator",
-    image: "/test2.jpg",
+    image: "Justine.jpg",
     quote:
       "Sometimes we’ll get an email saying that a particular staff member was just fabulous on a unit, and of course we feel great because we helped place them there.",
     link: "https://www.carecor.com/news/helping-healthcare-workers-every-day-justine-hayashi/",
@@ -25,7 +25,7 @@ const testimonials = [
   {
     name: "Jelen Calletor",
     role: "Staffing Coordinator",
-    image: "/test3.jpg",
+    image: "/test1.jpg",
     quote:
       "They all have their commitments, and so it’s important for me to get to know them a little bit. I know when they have school and I know if they prefer night shifts because their partners are working during the day.",
     link: "https://www.carecor.com/news/helping-healthcare-workers-every-day-jelen-calletor/",
@@ -33,7 +33,7 @@ const testimonials = [
   {
     name: "Tracy Scott",
     role: "Staffing Coordinator",
-    image: "/placeholder.jpg",
+    image: "/test2.jpg",
     quote:
       "When it comes to our staff, they call and you treat them more like a friend than a co-worker.",
     link: "https://www.carecor.com/news/helping-healthcare-workers-every-day-tracy-scott/",
@@ -41,7 +41,7 @@ const testimonials = [
   {
     name: "Debbie Ochoa",
     role: "Staffing Coordinator",
-    image: "/placeholder.jpg",
+    image: "/test3.jpg",
     quote:
       "Just knowing that I’m a vital link between the healthcare workers and the units and I’m helping both of them is so rewarding. I have a lot of days like that -- a lot of best days.",
     link: "https://www.carecor.com/news/helping-healthcare-workers-every-day-debbie-ochoa/",
