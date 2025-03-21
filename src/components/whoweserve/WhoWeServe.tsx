@@ -8,19 +8,19 @@ const locations = [
     name: "Ontario",
     image: "/ontario.jpg",
     alt: "Two healthcare colleagues talking on the stairs at hospital",
-    link: "https://www.carecor.com/locations/ontario/",
+    link: "#",
   },
   {
     name: "Nova Scotia",
     image: "/Nova_Scotia.jpg",
     alt: "Female nurse tending to male patient in hospital bed",
-    link: "https://www.carecor.com/locations/nova-scotia/",
+    link: "#",
   },
   {
     name: "Prince Edward Island",
     image: "/Prince_Edward_Island.jpg",
     alt: "Smiling nurse holding medical record",
-    link: "https://www.carecor.com/locations/pei/",
+    link: "#",
   },
 ];
 
@@ -28,7 +28,9 @@ export default function WhereWeHire() {
   return (
     <section className="bg-light py-16 text-center" data-aos="fade-up">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-semibold text-black mb-8">Where We Serve</h2>
+        <h2 className="text-3xl font-semibold text-black mb-8">
+          Where We Serve
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {locations.map((location, index) => (
             <Link key={index} href={location.link} className="block group  ">

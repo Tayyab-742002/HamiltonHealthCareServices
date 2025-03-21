@@ -5,7 +5,7 @@ import HeroSection from "@/components/hero/hero";
 import TeamSection from "@/components/team/team";
 import HelpingHealthcareCarousel from "@/components/testimonials/Testimonials";
 import JoinTeam from "@/components/jointeam/JoinTeam";
-import WhereWeHire from "@/components/whowehire/WhoWeHire";
+import WhereWeHire from "@/components/whoweserve/WhoWeServe";
 import {Footer} from "@/components/layouts/footer/Footer";
 import { Navbar } from "@/components/layouts/navbar/navbar";
 
