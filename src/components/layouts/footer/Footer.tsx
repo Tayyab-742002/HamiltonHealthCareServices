@@ -12,7 +12,7 @@ export function Footer() {
               width={56}
               height={89}
               src="/logo.png"
-              alt="Carecor Health Services"
+              alt="hamiltonhealthcareservices Health Services"
               className="w-56 sm:w-64 md:w-52 lg:w-50"
               // decoding="async"
               // loading="lazy"
@@ -21,7 +21,7 @@ export function Footer() {
           <Link href="/" className="bg-white p-4 mb-8 -translate-y-1/2">
             <Image
               src="/logo.png"
-              alt="Carecor Health Services"
+              alt="Hamilton Health Services"
               width={200}
               height={200}
               className="w-56 sm:w-64 md:w-52 lg:w-50"
@@ -55,7 +55,7 @@ export function Footer() {
             <div className="space-y-4 md:border-l mt-4 md:border-primary md:pl-8 ">
               <h3 className="text-lg font-semibold">
                 <Link
-                  href="https://www.carecor.com"
+                  href="https://www.hamiltonhealthcareservices.com"
                   className="hover:text-primary transition-colors"
                 >
                   Jobseekers
@@ -70,7 +70,7 @@ export function Footer() {
                 ].map(([title, url]) => (
                   <li key={title}>
                     <Link
-                      href={`https://www.carecor.com${url}`}
+                      href={`https://www.hamiltonhealthcareservices.com${url}`}
                       className="hover:text-primary transition-colors"
                     >
                       {title}
@@ -84,7 +84,7 @@ export function Footer() {
             <div className="space-y-4 md:border-l mt-4 md:border-primary md:pl-8 ">
               <h3 className="text-lg font-semibold">
                 <Link
-                  href="https://www.carecor.com/clients/"
+                  href="https://www.hamiltonhealthcareservices.com/"
                   className="hover:text-primary transition-colors"
                 >
                   Clients
@@ -98,7 +98,7 @@ export function Footer() {
                 ].map(([title, url]) => (
                   <li key={title}>
                     <Link
-                      href={`https://www.carecor.com${url}`}
+                      href={`https://www.hamiltonhealthcareservices.com${url}`}
                       className="hover:text-primary transition-colors"
                     >
                       {title}
@@ -113,7 +113,7 @@ export function Footer() {
               <Image
                 width={376}
                 height={376}
-                src="https://www.carecor.com/wp-content/uploads/2020/09/acseal.svg"
+                src="https://www.hamiltonhealthcareservices.com/wp-content/uploads/2020/09/acseal.svg"
                 alt="Accreditation Canada"
                 className="w-28 h-28"
                 decoding="async"
@@ -133,7 +133,7 @@ export function Footer() {
               {[
                 {
                   name: "Facebook",
-                  url: "https://www.facebook.com/CarecorHealth/",
+                  url: "https://www.facebook.com/hamiltonhealthcareservicesHealth/",
                   icon: (
                     <svg
                       className="lg:w-6 lg:h-6 w-4 h-4"
@@ -146,7 +146,7 @@ export function Footer() {
                 },
                 {
                   name: "Instagram",
-                  url: "https://www.instagram.com/carecorhealth/",
+                  url: "https://www.instagram.com/hamiltonhealthcareserviceshealth/",
                   icon: (
                     <svg
                       className="lg:w-6 lg:h-6 w-4 h-4"
@@ -159,7 +159,7 @@ export function Footer() {
                 },
                 {
                   name: "LinkedIn",
-                  url: "https://www.linkedin.com/company/carecor-health-services/",
+                  url: "https://www.linkedin.com/company/hamiltonhealthcareservices-health-services/",
                   icon: (
                     <svg
                       className="lg:w-6 lg:h-6 w-4 h-4"
@@ -194,7 +194,7 @@ export function Footer() {
               ].map(([title, url]) => (
                 <Link
                   key={title}
-                  href={`https://www.carecor.com${url}`}
+                  href={`https://www.hamiltonhealthcareservices.com${url}`}
                   className="text-sm hover:text-primary-foreground transition-colors underline"
                 >
                   {title}
@@ -203,7 +203,7 @@ export function Footer() {
             </div>
             {/* Copyright */}
             <div className="text-center md:text-left">
-              Carecor Health Services Ltd 2025
+              hamiltonhealthcareservices Health Services Ltd 2025
             </div>
           </div>
         </div>

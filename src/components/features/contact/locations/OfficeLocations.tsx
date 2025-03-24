@@ -7,21 +7,21 @@ export default function OfficeLocations() {
       address: "123 Healthcare Ave, Suite 200",
       postal: "Toronto, ON M5V 2T6",
       phone: "+1 (416) 555-0123",
-      email: "toronto@carecor.com"
+      email: "info@hamiltonhealthcareservices.com"
     },
     {
       city: "Ottawa",
       address: "456 Wellness Street, Floor 3",
       postal: "Ottawa, ON K1P 5M7",
       phone: "+1 (613) 555-0456",
-      email: "ottawa@carecor.com"
+      email: "info@hamiltonhealthcareservices.com"
     },
     {
       city: "Halifax",
       address: "789 Care Lane",
       postal: "Halifax, NS B3H 2Y9",
       phone: "+1 (902) 555-0789",
-      email: "halifax@carecor.com"
+      email: "info@hamiltonhealthcareservices.com"
     }
   ];
 

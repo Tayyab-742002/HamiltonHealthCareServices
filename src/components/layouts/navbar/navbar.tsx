@@ -21,7 +21,7 @@ export function Navbar() {
         <Link href="/" className="text-lg font-bold">
           <Image
             src="/logo.png"
-            alt="Carecor Health Services"
+            alt="Hamilton Health Services"
             width={200}
             height={200}
           />
