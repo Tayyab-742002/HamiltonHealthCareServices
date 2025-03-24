@@ -22,7 +22,7 @@ export default function JoinTeam() {
              w-full max-w-[350px] "
           >
             <p className="text-sm uppercase opacity-80">About Hamilton</p>
-            <h2 className="text-3xl font-bold mb-3">Who We Hire</h2>
+            <h2 className="text-3xl font-bold mb-3">Who We Do</h2>
             <p className="text-lg opacity-90 mb-5 flex-grow">
               Hamilton employs healthcare workers from a variety of
               patient-facing backgrounds.
