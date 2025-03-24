@@ -5,19 +5,19 @@ import Link from "next/link";
 
 const locations = [
   {
-    name: "Ontario",
+    name: "Hamilton",
     image: "/ontario.jpg",
     alt: "Two healthcare colleagues talking on the stairs at hospital",
     link: "#",
   },
   {
-    name: "Nova Scotia",
+    name: "Mississauga",
     image: "/Nova_Scotia.jpg",
     alt: "Female nurse tending to male patient in hospital bed",
     link: "#",
   },
   {
-    name: "Prince Edward Island",
+    name: "Toronto",
     image: "/Prince_Edward_Island.jpg",
     alt: "Smiling nurse holding medical record",
     link: "#",
@@ -28,8 +28,9 @@ export default function WhereWeHire() {
   return (
     <section className="bg-light py-16 text-center" data-aos="fade-up">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-semibold text-black mb-8">
-          Where We Serve
+        <h2 className="text-3xl  text-black mb-8">
+          Our excellent care services can be provided for our clients in their
+          homes within major cities in Ontario.
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {locations.map((location, index) => (

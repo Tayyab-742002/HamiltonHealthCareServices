@@ -34,7 +34,7 @@ export function Footer() {
               <ul className="space-y-2">
                 <li>
                   <Link
-                    href="https://www.carecor.com/contact/"
+                    href="info@hamiltonhealthcareservices.com"
                     className="hover:text-primary transition-colors"
                   >
                     Our Offices
@@ -42,10 +42,10 @@ export function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="mailto:info@carecor.com"
+                    href="mailto:info@hamiltonhealthcareservices.com"
                     className="hover:text-primary transition-colors"
                   >
-                    info@carecor.com
+                    info@hamiltonhealthcareservices.com
                   </Link>
                 </li>
               </ul>
