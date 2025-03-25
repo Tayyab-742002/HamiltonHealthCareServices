@@ -4,12 +4,12 @@ export default function TeamSection() {
   return (
     <section className="py-10 md:py-16 bg-white">
       <div className="container mx-auto px-4 md:px-8">
-        {/* Heading */}
+
         <h2 className="text-5xl md:text-4xl text-center font-semibold text-gray-900 mb-6">
           For Those Who Put People First
         </h2>
 
-        {/* Paragraphs */}
+
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-base md:text-lg text-gray-700 mb-4">
             We are proud to specialize in patient care staffing as it ensures a
@@ -28,7 +28,7 @@ export default function TeamSection() {
             patient care delivery as the facilities in which we serve.
           </p>
 
-          {/* Call-to-action link */}
+       
           <div>
             <a
               href="#"

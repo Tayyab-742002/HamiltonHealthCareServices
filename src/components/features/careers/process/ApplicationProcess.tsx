@@ -2,23 +2,23 @@
 
 export default function ApplicationProcess() {
   const steps = [
+    // {
+    //   number: "1",
+    //   title: "Browse Opportunities",
+    //   description: "Search through our current openings to find the right position for you",
+    // },
     {
       number: "1",
-      title: "Browse Opportunities",
-      description: "Search through our current openings to find the right position for you",
-    },
-    {
-      number: "2",
       title: "Submit Application",
       description: "Complete our online application form and upload your resume",
     },
     {
-      number: "3",
+      number: "2",
       title: "Interview Process",
       description: "Meet with our team to discuss your experience and career goals",
     },
     {
-      number: "4",
+      number: "3",
       title: "Join Our Team",
       description: "Complete onboarding and start your journey with us",
     },

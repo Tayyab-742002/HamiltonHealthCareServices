@@ -55,7 +55,7 @@ export function Footer() {
             <div className="space-y-4 md:border-l mt-4 md:border-primary md:pl-8 ">
               <h3 className="text-lg font-semibold">
                 <Link
-                  href="https://www.hamiltonhealthcareservices.com"
+                  href="com"
                   className="hover:text-primary transition-colors"
                 >
                   Jobseekers
@@ -70,7 +70,7 @@ export function Footer() {
                 ].map(([title, url]) => (
                   <li key={title}>
                     <Link
-                      href={`https://www.hamiltonhealthcareservices.com${url}`}
+                      href={`.com${url}`}
                       className="hover:text-primary transition-colors"
                     >
                       {title}
@@ -98,7 +98,7 @@ export function Footer() {
                 ].map(([title, url]) => (
                   <li key={title}>
                     <Link
-                      href={`https://www.hamiltonhealthcareservices.com${url}`}
+                      href={`.com${url}`}
                       className="hover:text-primary transition-colors"
                     >
                       {title}
@@ -113,7 +113,7 @@ export function Footer() {
               <Image
                 width={376}
                 height={376}
-                src="https://www.hamiltonhealthcareservices.com/wp-content/uploads/2020/09/acseal.svg"
+                src=""
                 alt="Accreditation Canada"
                 className="w-28 h-28"
                 decoding="async"
@@ -133,7 +133,7 @@ export function Footer() {
               {[
                 {
                   name: "Facebook",
-                  url: "https://www.facebook.com/hamiltonhealthcareservicesHealth/",
+                  url: "",
                   icon: (
                     <svg
                       className="lg:w-6 lg:h-6 w-4 h-4"
@@ -146,7 +146,7 @@ export function Footer() {
                 },
                 {
                   name: "Instagram",
-                  url: "https://www.instagram.com/hamiltonhealthcareserviceshealth/",
+                  url: "",
                   icon: (
                     <svg
                       className="lg:w-6 lg:h-6 w-4 h-4"
@@ -159,7 +159,7 @@ export function Footer() {
                 },
                 {
                   name: "LinkedIn",
-                  url: "https://www.linkedin.com/company/hamiltonhealthcareservices-health-services/",
+                  url: "",
                   icon: (
                     <svg
                       className="lg:w-6 lg:h-6 w-4 h-4"
@@ -203,7 +203,7 @@ export function Footer() {
             </div>
             {/* Copyright */}
             <div className="text-center md:text-left">
-              hamiltonhealthcareservices Health Services Ltd 2025
+              Hamiltonhealthcareservices Health Services Ltd 2025
             </div>
           </div>
         </div>

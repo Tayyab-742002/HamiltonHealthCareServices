@@ -1,11 +1,11 @@
-import CounterSection from "@/components/counter/counter";
-import DifferentSection from "@/components/different/different";
-import HeroSection from "@/components/hero/hero";
+import CounterSection from "@/components/landingPage/counter/counter";
+import DifferentSection from "@/components/landingPage/different/different";
+import HeroSection from "@/components/landingPage/hero/hero";
 
-import TeamSection from "@/components/team/team";
-import HelpingHealthcareCarousel from "@/components/testimonials/Testimonials";
-import JoinTeam from "@/components/jointeam/JoinTeam";
-import WhereWeHire from "@/components/whoweserve/WhoWeServe";
+import TeamSection from "@/components/landingPage/team/team";
+import HelpingHealthcareCarousel from "@/components/landingPage/testimonials/Testimonials";
+import JoinTeam from "@/components/landingPage/jointeam/JoinTeam";
+import WhereWeHire from "@/components/landingPage/whoweserve/WhoWeServe";
 import {Footer} from "@/components/layouts/footer/Footer";
 import { Navbar } from "@/components/layouts/navbar/navbar";
 

@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button";
 export default function CurrentOpportunities() {
   const positions = [
     {
-      title: "Registered Nurses",
-      type: "Full-time / Part-time",
+      title: "Caregivers(Domestic/Overseas)",
+      type: "Full-time",
       location: "Multiple Locations",
     },
     {
@@ -14,16 +14,16 @@ export default function CurrentOpportunities() {
       type: "Full-time / Part-time",
       location: "Multiple Locations",
     },
-    {
-      title: "Personal Support Workers",
-      type: "Full-time / Part-time",
-      location: "Multiple Locations",
-    },
-    {
-      title: "Healthcare Administrators",
-      type: "Full-time",
-      location: "Toronto, ON",
-    },
+    // {
+    //   title: "Personal Support Workers",
+    //   type: "Full-time / Part-time",
+    //   location: "Multiple Locations",
+    // },
+    // {
+    //   title: "Healthcare Administrators",
+    //   type: "Full-time",
+    //   location: "Toronto, ON",
+    // },
   ];
 
   return (
@@ -49,19 +49,18 @@ export default function CurrentOpportunities() {
               </div>
             ))}
           </div>
-          {/* <div className="mt-12 text-center">
-            <Button
-              className="bg-blue-950 hover:bg-blue-900 text-white px-8 py-6 text-lg"
-              onClick={() =>
-                window.open(
-                  "https://recruiting.ultipro.ca/BAY5100BYHC/JobBoard/c921bbcc-c132-45c9-86e9-3d15aa0bca3a/?q=&o=postedDateDesc",
-                  "_blank"
-                )
-              }
-            >
-              View All Opportunities
-            </Button>
-          </div> */}
+
+          {/* <Button
+            className="bg-blue-950 hover:bg-blue-900 text-white px-8 py-6 text-lg"
+            onClick={() =>
+              window.open(
+                "https://recruiting.ultipro.ca/BAY5100BYHC/JobBoard/c921bbcc-c132-45c9-86e9-3d15aa0bca3a/?q=&o=postedDateDesc",
+                "_blank"
+              )
+            }
+          >
+            View All Opportunities
+          </Button> */}
         </div>
       </div>
     </section>

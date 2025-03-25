@@ -28,7 +28,7 @@ export default function WhereWeHire() {
   return (
     <section className="bg-light py-16 text-center" data-aos="fade-up">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl  text-black mb-8">
+        <h2 className="text-2xl  text-black mb-8">
           Our excellent care services can be provided for our clients in their
           homes within major cities in Ontario.
         </h2>
