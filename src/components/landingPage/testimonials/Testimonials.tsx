@@ -7,43 +7,43 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Gerby Malanay",
-    role: "Staffing Office Supervisor",
-    image: "/Gerby-Malanay.jpg",
-    quote:
-      "When the workers know we can help design their work schedule, it builds up a level of trust with us. That’s one of the advantages of working for Hamilton; you get to pick the shifts and the dates you want to work.",
-    link: "",
-  },
-  {
-    name: "Justine Hayashi",
-    role: "Staffing Coordinator",
-    image: "Justine.jpg",
-    quote:
-      "Sometimes we’ll get an email saying that a particular staff member was just fabulous on a unit, and of course we feel great because we helped place them there.",
-    link: "",
-  },
-  {
-    name: "Jelen Calletor",
-    role: "Staffing Coordinator",
+    name: "Sarah",
+    role: "Healthcare Professional",
     image: "/test1.jpg",
     quote:
-      "They all have their commitments, and so it’s important for me to get to know them a little bit. I know when they have school and I know if they prefer night shifts because their partners are working during the day.",
+      "Working at Hamilton Healthcare has been an incredibly rewarding experience. The team is supportive, and I feel valued for the work I do every day. Helping clients maintain their independence and seeing the impact I make in their lives is truly fulfilling. I couldn't ask for a better place to grow as a caregiver!",
     link: "",
   },
   {
-    name: "Tracy Scott",
-    role: "Staffing Coordinator",
+    name: "Justine",
+    role: "Healthcare Professional",
     image: "/test2.jpg",
     quote:
-      "When it comes to our staff, they call and you treat them more like a friend than a co-worker.",
+      "Hamilton Healthcare has given me the opportunity to do what I love—caring for others. The flexible scheduling and professional support make my job easier, and I always feel appreciated. It's more than just a job; it's a place where I get to make a difference in people's lives every day.",
     link: "",
   },
   {
-    name: "Debbie Ochoa",
-    role: "Staffing Coordinator",
+    name: "Matilda",
+    role: "Caregiver",
     image: "/test3.jpg",
     quote:
-      "Just knowing that I’m a vital link between the healthcare workers and the units and I’m helping both of them is so rewarding. I have a lot of days like that -- a lot of best days.",
+      "Being a caregiver at Hamilton Healthcare has been an amazing journey. The company truly values its staff, providing ongoing training and a positive work environment. Knowing that I'm making a real difference in my clients' lives gives me a deep sense of fulfillment and purpose.",
+    link: "",
+  },
+  {
+    name: "Emily",
+    role: "Healthcare Professional",
+    image: "/test4.jpg",
+    quote:
+      "Working with Hamilton Healthcare has been one of the best decisions of my career. The management is supportive, and the clients are wonderful. Every day brings new experiences, and I leave my shifts feeling proud of the care I provide. It's a fulfilling and meaningful career, and I'm grateful to be part of this team!",
+    link: "",
+  },
+  {
+    name: "Anthony",
+    role: "Healthcare Professional",
+    image: "/test5.jpg",
+    quote:
+      "Joining Hamilton Healthcare has been life-changing. The support from the team and the strong sense of community make it more than just a job—it's a calling. Every day, I get to bring comfort and companionship to those in need, and that feeling is truly priceless. I'm proud to be part of such a compassionate organization.",
     link: "",
   },
 ];

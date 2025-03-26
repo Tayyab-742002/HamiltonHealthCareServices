@@ -12,7 +12,7 @@ export default function ContactPage() {
       <main>
         <ContactHero />
         <ContactInfo />
-        <ContactForm />
+        {/* <ContactForm /> */}
         <OfficeLocations />
       </main>
       <Footer />
