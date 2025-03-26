@@ -10,12 +10,14 @@ export default function ApplicationProcess() {
     {
       number: "1",
       title: "Submit Application",
-      description: "Complete our online application form and upload your resume",
+      description:
+        "Complete our online application form and upload your resume",
     },
     {
       number: "2",
       title: "Interview Process",
-      description: "Meet with our team to discuss your experience and career goals",
+      description:
+        "Meet with our team to discuss your experience and career goals",
     },
     {
       number: "3",
@@ -25,12 +27,15 @@ export default function ApplicationProcess() {
   ];
 
   return (
-    <section className="py-16 bg-white" data-aos="fade-up">
-      <div className="container mx-auto px-6">
+    <section
+      className="py-16 bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mx-4 "
+      data-aos="fade-up"
+    >
+      <div className="container mx-auto px-6 ">
         <h2 className="text-3xl font-bold text-blue-950 text-center mb-12">
           Application Process
         </h2>
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-5xl mx-auto ">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {steps.map((step, index) => (
               <div key={index} className="text-center">

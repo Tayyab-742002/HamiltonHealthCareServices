@@ -16,7 +16,7 @@ export default function Home() {
       <main className="relative">
         <HeroSection />
         <CounterSection />
-        <TeamSection />
+        {/* <TeamSection /> */}
         <JoinTeam />
         <HelpingHealthcareCarousel />
         <WhereWeHire />

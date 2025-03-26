@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import ImmigrationProgram from "./ImmigrationProgram";
 
 export default function CurrentOpportunities() {
   const positions = [
@@ -14,55 +15,45 @@ export default function CurrentOpportunities() {
       type: "Full-time / Part-time",
       location: "Multiple Locations",
     },
-    // {
-    //   title: "Personal Support Workers",
-    //   type: "Full-time / Part-time",
-    //   location: "Multiple Locations",
-    // },
-    // {
-    //   title: "Healthcare Administrators",
-    //   type: "Full-time",
-    //   location: "Toronto, ON",
-    // },
   ];
 
   return (
-    <section className="py-16 bg-gray-50" data-aos="fade-up">
-      <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-blue-950 text-center mb-12">
-          Current Opportunities
-        </h2>
-        <div className="max-w-4xl mx-auto">
-          <div className="grid gap-6">
-            {positions.map((position, index) => (
-              <div
-                key={index}
-                className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow"
-              >
-                <h3 className="text-xl font-semibold text-blue-950">
-                  {position.title}
-                </h3>
-                <div className="mt-2 space-y-1 text-gray-600">
-                  <p>{position.type}</p>
-                  <p>{position.location}</p>
+    <section className="py-10 sm:py-20 bg-gradient-to-b from-gray-50 to-white" data-aos="fade-up">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto space-y-8 sm:space-y-16">
+          {/* Current Opportunities Section */}
+          <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-4 sm:p-8 mx-0 sm:mx-0">
+            <h2 className="text-2xl sm:text-3xl font-bold text-blue-950 text-center mb-6 sm:mb-12">
+              Current Opportunities
+            </h2>
+            <div className="grid gap-4 sm:gap-8">
+              {positions.map((position, index) => (
+                <div
+                  key={index}
+                  className="bg-gray-50 p-4 sm:p-8 rounded-xl hover:shadow-md transition-all duration-300"
+                >
+                  <h3 className="text-xl sm:text-2xl font-semibold text-blue-950 mb-4">
+                    {position.title}
+                  </h3>
+                  <div className="flex flex-wrap gap-2 sm:gap-4">
+                    <span className="px-3 py-1 sm:px-4 sm:py-2 bg-blue-50 text-blue-800 rounded-full text-xs sm:text-sm font-medium">
+                      {position.type}
+                    </span>
+                    <span className="px-3 py-1 sm:px-4 sm:py-2 bg-white text-gray-700 rounded-full text-xs sm:text-sm font-medium">
+                      {position.location}
+                    </span>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
 
-          {/* <Button
-            className="bg-blue-950 hover:bg-blue-900 text-white px-8 py-6 text-lg"
-            onClick={() =>
-              window.open(
-                "https://recruiting.ultipro.ca/BAY5100BYHC/JobBoard/c921bbcc-c132-45c9-86e9-3d15aa0bca3a/?q=&o=postedDateDesc",
-                "_blank"
-              )
-            }
-          >
-            View All Opportunities
-          </Button> */}
+          {/* Immigration Program Section */}
+          <ImmigrationProgram />
         </div>
       </div>
     </section>
   );
 }
+
+
