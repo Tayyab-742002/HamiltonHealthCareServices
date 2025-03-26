@@ -6,7 +6,7 @@ export default function ContactHero() {
   return (
     <section className="relative h-[300px] md:h-[400px] flex items-center">
       <Image
-        src="/about-hero.jpg"
+        src="/contact-hero.jpg"
         alt="Healthcare professionals in a meeting"
         fill
         className="object-cover"

@@ -4,26 +4,20 @@ import Image from "next/image";
 
 export default function AboutHero() {
   return (
-    <section className="relative flex items-center justify-center w-full h-[400px] lg:h-[500px] overflow-hidden">
-      {/* Background Image */}
+    <section className="relative h-[300px] md:h-[400px] flex items-center">
       <Image
-        src="/about-hero.jpg" // You'll need to add this image to your public folder
-        alt="Healthcare professionals in a meeting"
+        src="/about-hero.jpg"
+        alt="Healthcare professionals providing care"
         fill
         className="object-cover"
         priority
       />
-
-      {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-950/90 via-blue-950/80 to-blue-950/70" />
-
-      {/* Main Content */}
-      <div className="relative z-30 container mx-auto text-center">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
-          About Us
-        </h1>
-        <p className="text-xl text-white/90 max-w-2xl mx-auto">
-          Over three decades of excellence in healthcare staffing and support services
+      <div className="absolute inset-0 bg-blue-950/70" />
+      <div className="relative container mx-auto px-6 text-white">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">About Us</h1>
+        <p className="text-xl max-w-2xl">
+          Over three decades of excellence in healthcare staffing and support
+          services
         </p>
       </div>
     </section>
