@@ -122,7 +122,7 @@ export default function ReferralProgram() {
               To join our referral program contact us at{" "}
               <a
                 href="mailto:referrals@hamiltonhealthcareservices.com"
-                className="text-blue-950 font-semibold hover:underline"
+                className="text-blue-950 font-semibold text-[16px] hover:underline"
               >
                 referrals@hamiltonhealthcareservices.com
               </a>

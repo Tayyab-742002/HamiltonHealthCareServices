@@ -10,8 +10,7 @@ export default function ApplicationProcess() {
     {
       number: "1",
       title: "Submit Application",
-      description:
-        "Complete our online application form and upload your resume",
+      description: " Send your resume/cv to our HR team.",
     },
     {
       number: "2",

@@ -32,7 +32,7 @@ export default function ImmigrationProgram() {
               <div className="bg-gray-50 p-4 sm:p-6 rounded-xl">
                 <h5 className="font-semibold text-blue-950 mb-2">Launch Timeline</h5>
                 <div className="space-y-2 sm:space-y-3">
-                  <p className="text-sm sm:text-base text-gray-700">• Workers in Canada Stream - March, 2025</p>
+                  <p className="text-sm sm:text-base text-gray-700">• Workers in Canada Stream - March 31, 2025</p>
                   <p className="text-sm sm:text-base text-gray-700">• Applicants not working in Canada - June, 2025</p>
                 </div>
               </div>
@@ -42,7 +42,7 @@ export default function ImmigrationProgram() {
           {/* Important Notice */}
           <div className="bg-blue-50 border-l-4 border-blue-500 p-4 sm:p-6 rounded-r-xl">
             <p className="text-sm sm:text-base text-blue-900 font-medium">
-              We are currently accepting applications for both streams. Applicants from outside Canada can apply now and start their application process for the second stream which will launch later in June.
+              We are currently accepting applications for both streams. Applicants from outside Canada can apply now and start their application process for the second stream which will launch later in June, 2025.
             </p>
           </div>
 
