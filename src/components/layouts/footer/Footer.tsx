@@ -32,14 +32,14 @@ export function Footer() {
             <div className="space-y-4 mt-4">
               <h3 className="text-lg font-semibold">Get In Touch</h3>
               <ul className="space-y-2">
-                <li>
+                {/* <li>
                   <Link
                     href="info@hamiltonhealthcareservices.com"
                     className="hover:text-primary transition-colors"
                   >
                     Our Offices
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link
                     href="mailto:info@hamiltonhealthcareservices.com"
@@ -144,7 +144,7 @@ export function Footer() {
                 },
                 {
                   name: "Instagram",
-                  url: "",
+                  url: "https://www.instagram.com/hamiltonhealthcarecanada?igsh=czQydjZyZGo4enN3&utm_source=qr",
                   icon: (
                     <svg
                       className="lg:w-6 lg:h-6 w-4 h-4"
