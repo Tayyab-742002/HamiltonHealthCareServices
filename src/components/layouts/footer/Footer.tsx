@@ -24,6 +24,7 @@ export function Footer() {
               alt="Hamilton Health Services"
               width={200}
               height={200}
+              priority
               className="w-56 sm:w-64 md:w-52 lg:w-50"
             />
           </Link>
@@ -107,7 +108,7 @@ export function Footer() {
             </div> */}
 
             {/* Accreditation Logo */}
-            <div className="hidden lg:flex justify-end justify-self-end">
+            {/* <div className="hidden lg:flex justify-end justify-self-end">
               <Image
                 width={376}
                 height={376}
@@ -117,7 +118,7 @@ export function Footer() {
                 decoding="async"
                 loading="lazy"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

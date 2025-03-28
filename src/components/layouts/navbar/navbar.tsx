@@ -24,6 +24,7 @@ export function Navbar() {
             alt="Hamilton Health Services"
             width={200}
             height={200}
+            priority
           />
         </Link>
 

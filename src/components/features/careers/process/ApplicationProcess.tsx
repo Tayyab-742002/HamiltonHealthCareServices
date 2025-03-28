@@ -44,17 +44,18 @@ export default function ApplicationProcess() {
             ))}
           </div>
 
-          {/* Added Application Instructions */}
-          <div className="text-center mt-8 sm:mt-12 p-4 sm:p-6 bg-blue-50 rounded-xl mx-2 sm:mx-0">
-            <p className="text-base sm:text-lg font-semibold text-blue-950 px-2 sm:px-0">
+          <div className="text-center mt-8 sm:mt-12 py-4 sm:py-6 bg-blue-50 rounded-xl">
+            <p className="text-base mb-2">
               To apply candidates should send their resume/cv to:
             </p>
-            <a
-              href="mailto:careers@hamiltonhealthcareservices.com"
-              className="text-sm sm:text-md text-dark-blue underline hover:text-blue-800 font-bold mt-2 block break-words px-2 sm:px-0"
-            >
-              careers@hamiltonhealthcareservices.com
-            </a>
+            <div className="max-w-full ">
+              <a
+                href="mailto:careers@hamiltonhealthcareservices.com"
+                className="text-[16px] underline text-dark-blue hover:text-blue-900 font-semibold inline-block "
+              >
+                careers@hamiltonhealthcareservices.com
+              </a>
+            </div>
           </div>
         </div>
       </div>
