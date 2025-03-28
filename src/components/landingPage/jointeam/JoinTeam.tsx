@@ -18,20 +18,25 @@ export default function JoinTeam() {
   }, []);
 
   return (
-    <section className="relative py-10 md:py-16 bg-gradient-to-b from-white via-gray-50 to-white" data-aos="fade-up">
+    <section
+      className="relative py-10 md:py-16 bg-gradient-to-b from-white via-gray-50 to-white"
+      data-aos="fade-up"
+    >
       <div className="container mx-auto px-4 sm:px-6">
         {/* What We Do Card and Video */}
         <div className="max-w-[380px] mx-auto mb-24">
           {/* What We Do Card */}
           <div className="bg-gradient-to-br from-cyan-700 to-cyan-800 p-8 rounded-xl text-white shadow-2xl flex flex-col w-full transform transition-all duration-300 hover:scale-105 hover:shadow-cyan-500/20 mb-12">
-            <p className="text-sm uppercase tracking-wider opacity-80">About Hamilton</p>
+            <p className="text-sm uppercase tracking-wider opacity-80">
+              About Hamilton
+            </p>
             <h2 className="text-3xl font-bold mb-4 mt-2">What We Do</h2>
             <p className="text-lg opacity-90 mb-6 flex-grow">
               Hamilton employs healthcare workers from a variety of
               patient-facing backgrounds.
             </p>
             <Button className="w-full bg-white text-cyan-700 hover:bg-gray-100 text-lg py-6 rounded-lg font-semibold transition-all duration-300 hover:shadow-lg">
-              <a href="/what-we-do/" className="flex items-center justify-center">
+              <a href="/about" className="flex items-center justify-center">
                 Learn More
                 <span className="ml-2">→</span>
               </a>
@@ -49,7 +54,7 @@ export default function JoinTeam() {
                 preload="metadata"
                 poster="/services-hero.jpg"
                 style={{
-                  boxShadow: 'inset 0 0 50px rgba(0,0,0,0.2)'
+                  boxShadow: "inset 0 0 50px rgba(0,0,0,0.2)",
                 }}
               >
                 <source src="/whatwedo.mp4" type="video/mp4" />
@@ -60,7 +65,8 @@ export default function JoinTeam() {
           </div>
           {/* What We Do Video Caption */}
           <p className="text-center text-gray-600 mt-4 text-sm italic">
-            Discover how Hamilton Healthcare Services is making a difference in healthcare
+            Discover how Hamilton Healthcare Services is making a difference in
+            healthcare
           </p>
         </div>
 
@@ -68,15 +74,19 @@ export default function JoinTeam() {
         <div className="max-w-[380px] mx-auto">
           {/* Current Opportunities Card */}
           <div className="bg-gradient-to-br from-cyan-700 to-cyan-800 p-8 rounded-xl text-white shadow-2xl flex flex-col w-full transform transition-all duration-300 hover:scale-105 hover:shadow-cyan-500/20 mb-12">
-            <p className="text-sm uppercase tracking-wider opacity-80">Join Our Team</p>
-            <h2 className="text-3xl font-bold mb-4 mt-2">Current Opportunities</h2>
+            <p className="text-sm uppercase tracking-wider opacity-80">
+              Join Our Team
+            </p>
+            <h2 className="text-3xl font-bold mb-4 mt-2">
+              Current Opportunities
+            </h2>
             <p className="text-lg opacity-90 mb-6 flex-grow">
-              Explore exciting career opportunities and be part of our growing healthcare team.
+              Explore exciting career opportunities and be part of our growing
+              healthcare team.
             </p>
             <Button className="w-full bg-white text-cyan-700 hover:bg-gray-100 text-lg py-6 rounded-lg font-semibold transition-all duration-300 hover:shadow-lg">
               <a
-                href="https://recruiting.ultipro.ca/BAY5100BYHC/JobBoard/c921bbcc-c132-45c9-86e9-3d15aa0bca3a/?q=&o=postedDateDesc"
-                target="_blank"
+                href="/careers"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center"
               >
@@ -97,7 +107,7 @@ export default function JoinTeam() {
                 preload="metadata"
                 poster="/placeholder.jpg"
                 style={{
-                  boxShadow: 'inset 0 0 50px rgba(0,0,0,0.2)'
+                  boxShadow: "inset 0 0 50px rgba(0,0,0,0.2)",
                 }}
               >
                 <source src="/recruite.mp4" type="video/mp4" />

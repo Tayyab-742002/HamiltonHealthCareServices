@@ -36,7 +36,7 @@ export default function HeroSection() {
           </h1> */}
           <p className="mt-4 text-white/90 text-lg sm:text-xl">
             Over 30 years of providing trusted healthcare support to private
-            homes and healthcare facilities.
+            homes and healthcare facilities in Ontario, Canada.
           </p>
 
           {/* Updated Button */}

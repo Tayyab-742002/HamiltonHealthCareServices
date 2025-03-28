@@ -63,14 +63,12 @@ export function Footer() {
               </h3>
               <ul className="space-y-2">
                 {[
-                  ["Where We Hire", "/locations/"],
-                  ["Who We Hire", "/who-we-hire/"],
-                  ["How to Apply", "/howtoapply/"],
-                  ["About Us", "/about/"],
+                  ["How to Apply", "/careers"],
+                  ["About Us", "/about"],
                 ].map(([title, url]) => (
                   <li key={title}>
                     <Link
-                      href={`.com${url}`}
+                      href={`${url}`}
                       className="hover:text-primary transition-colors"
                     >
                       {title}
@@ -81,7 +79,7 @@ export function Footer() {
             </div>
 
             {/* Clients Column */}
-            <div className="space-y-4 md:border-l mt-4 md:border-primary md:pl-8 ">
+            {/* <div className="space-y-4 md:border-l mt-4 md:border-primary md:pl-8 ">
               <h3 className="text-lg font-semibold">
                 <Link
                   href="https://www.hamiltonhealthcareservices.com/"
@@ -106,7 +104,7 @@ export function Footer() {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
 
             {/* Accreditation Logo */}
             <div className="hidden lg:flex justify-end justify-self-end">
@@ -133,7 +131,7 @@ export function Footer() {
               {[
                 {
                   name: "Facebook",
-                  url: "",
+                  url: "https://www.facebook.com/share/1EfhhA7jXt/?mibextid=JRoKGi",
                   icon: (
                     <svg
                       className="lg:w-6 lg:h-6 w-4 h-4"
