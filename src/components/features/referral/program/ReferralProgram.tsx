@@ -15,7 +15,7 @@ export default function ReferralProgram() {
     {
       title: "Candidate Receives a Job Offer",
       description:
-        "Once your referred candidate secures a job offer from Hamilton Healthcare, you qualify for the referral bonus.",
+        "Once your referred candidate secures a job offer from Hamilton Healthcare, you will be paid the referral bonus.",
     },
     {
       title: "Receive Your $200 CAD Reward",
@@ -32,7 +32,7 @@ export default function ReferralProgram() {
   ];
 
   const terms = [
-    "The referred candidate must be qualified and eligible to work in Canada under Home Care Worker Immigration pilots.",
+    "The referred candidate must be qualified and eligible to work in Canada under the Home Care Worker Immigration pilots.",
     "The referral bonus is only paid if the referred candidate receives and accepts a job offer from us.",
     "The referral partner must provide accurate contact details for both themselves and the referred candidate.",
     "A candidate can only be referred once. If multiple people refer the same candidate, the reward will go to the first referrer who submitted their details.",
@@ -49,8 +49,8 @@ export default function ReferralProgram() {
             <p className="text-lg text-gray-700 leading-relaxed">
               Hamilton Healthcare is actively recruiting overseas nurses,
               caregivers and healthcare professionals through the Canada Home
-              Care Worker Immigration pilots providing job opportunities for
-              qualified overseas caregivers to join our team in Canada.
+              Care Worker Immigration pilots which provides job opportunities
+              for qualified overseas caregivers to join our team in Canada.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mt-4">
               In line with our recruitment process, we invite healthcare

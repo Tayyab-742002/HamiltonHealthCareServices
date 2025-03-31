@@ -10,25 +10,20 @@ export default function ServiceLocations() {
           </h2>
           <p className="text-lg text-gray-700 mb-8">
             We provide our services across multiple locations, ensuring quality
-            healthcare staffing and personal care services are accessible to those
-            who need them.
+            healthcare staffing and personal care services are accessible to
+            those who need them.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-center">
-            {[
-              "Toronto",
-              "Ottawa",
-              "Vancouver",
-              "Calgary",
-              "Montreal",
-              "Halifax"
-            ].map((location) => (
-              <div
-                key={location}
-                className="bg-white p-4 rounded-lg shadow-sm"
-              >
-                {location}
-              </div>
-            ))}
+            {["Toronto", "Ottawa", "Hamilton ", "Mississauga "].map(
+              (location) => (
+                <div
+                  key={location}
+                  className="bg-white p-4 rounded-lg shadow-sm"
+                >
+                  {location}
+                </div>
+              )
+            )}
           </div>
         </div>
       </div>

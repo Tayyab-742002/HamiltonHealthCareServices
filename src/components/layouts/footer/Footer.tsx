@@ -191,13 +191,16 @@ export function Footer() {
                 ["Cookie Policy", "/cookie-policy/"],
                 ["Accessibility", "/accessibility/"],
               ].map(([title, url]) => (
-                <Link
-                  key={title}
-                  href={`https://www.hamiltonhealthcareservices.com${url}`}
-                  className="text-sm hover:text-primary-foreground transition-colors underline"
-                >
+                // <Link
+                //   key={title}
+                //   href={""}
+                //   className="text-sm hover:text-primary-foreground transition-colors underline"
+                // >
+                //   {title}
+                // </Link>
+                <p className="text-sm hover:text-primary-foreground transition-colors underline">
                   {title}
-                </Link>
+                </p>
               ))}
             </div>
             {/* Copyright */}

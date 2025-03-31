@@ -51,7 +51,7 @@ export default function ApplicationProcess() {
             <div className="max-w-full ">
               <a
                 href="mailto:careers@hamiltonhealthcareservices.com"
-                className="text-[16px] underline text-dark-blue hover:text-blue-900 font-semibold inline-block "
+                className="text-[14px] underline text-dark-blue hover:text-blue-900 font-semibold inline-block "
               >
                 careers@hamiltonhealthcareservices.com
               </a>
@@ -62,5 +62,3 @@ export default function ApplicationProcess() {
     </section>
   );
 }
-
-
