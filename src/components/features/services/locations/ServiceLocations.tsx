@@ -14,7 +14,7 @@ export default function ServiceLocations() {
             those who need them.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-center">
-            {["Toronto", "Ottawa", "Hamilton ", "Mississauga "].map(
+            {["Toronto", "Hamilton ", "Mississauga "].map(
               (location) => (
                 <div
                   key={location}
