@@ -80,7 +80,7 @@ export default function ContactInfo() {
                 {detail.info.includes("@") ? (
                   <Link
                     href="mailto:info@hamiltonhealthcareservices.com"
-                    className="hover:text-primary transition-colors underline text-blue-950"
+                    className="hover:text-primary transition-colors underline text-sm text-blue-950"
                   >
                     info@hamiltonhealthcareservices.com
                   </Link>
