@@ -105,7 +105,7 @@ export default function JoinTeam() {
                 className="w-full h-full object-cover rounded-2xl"
                 controls
                 preload="metadata"
-                poster="/placeholder.jpg"
+                poster="/recruite-poster.jpg"
                 style={{
                   boxShadow: "inset 0 0 50px rgba(0,0,0,0.2)",
                 }}
