@@ -205,7 +205,7 @@ export function Footer() {
             </div>
             {/* Copyright */}
             <div className="text-center md:text-left">
-              Hamiltonhealthcareservices Health Services Ltd 2025
+              Hamilton Healthcare Services LTD 2025
             </div>
           </div>
         </div>

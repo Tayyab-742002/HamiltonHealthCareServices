@@ -52,10 +52,7 @@ export default function ImmigrationProgram() {
           {/* Important Notice */}
           <div className="bg-blue-50 border-l-4 border-blue-500 p-4 sm:p-6 rounded-r-xl">
             <p className="text-sm sm:text-base text-blue-900 font-medium">
-              We are currently accepting applications for both streams.
-              Applicants from outside Canada can apply now and start their
-              application process for the second stream which will launch later
-              in June, 2025.
+            We are now accepting applications and overseas candidates outside Canada can apply now to start their application process.
             </p>
           </div>
 
