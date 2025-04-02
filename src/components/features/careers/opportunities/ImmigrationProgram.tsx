@@ -19,9 +19,9 @@ export default function ImmigrationProgram() {
         <div className="space-y-6 sm:space-y-8">
           {/* Program Breakdown */}
           <div className="border-b border-gray-100 pb-6 sm:pb-8">
-            <h4 className="text-lg sm:text-xl font-semibold text-blue-950 mb-4 sm:mb-6">
+            {/* <h4 className="text-lg sm:text-xl font-semibold text-blue-950 mb-4 sm:mb-6">
               Program Breakdown
-            </h4>
+            </h4> */}
             <div className="grid gap-4 sm:gap-6">
               <div className="bg-gray-50 p-4 sm:p-6 rounded-xl">
                 <h5 className="font-semibold text-blue-950 mb-2">
@@ -60,7 +60,7 @@ export default function ImmigrationProgram() {
           </div>
 
           {/* Eligibility Requirements */}
-          <div>
+          {/* <div>
             <h4 className="text-lg sm:text-xl font-semibold text-blue-950 mb-4 sm:mb-6">
               Eligibility Requirements
             </h4>
@@ -84,7 +84,7 @@ export default function ImmigrationProgram() {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
