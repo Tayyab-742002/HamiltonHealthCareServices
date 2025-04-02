@@ -6,7 +6,7 @@ export default function ContactInfo() {
   const contactDetails = [
     {
       title: "24/7 Support",
-      info: "1-800-123-4567",
+      info: "+1 (236) 706-5082",
       icon: (
         <svg
           className="w-6 h-6"

@@ -6,10 +6,11 @@ export default function ImmigrationProgram() {
       {/* Header Section */}
       <div className="p-4 sm:p-8 bg-blue-950 text-white">
         <h3 className="text-xl sm:text-2xl font-semibold mb-4">
-          New Immigration Program 2025
+          The Temporary Foreign Worker (TFW) Program
         </h3>
         <p className="text-sm sm:text-base text-blue-100 leading-relaxed">
-          On March 31, 2025, Canada will launch two new streams, the Home Care Worker Immigration Pilots (HCWP), offering a path to permanent residence for foreign caregivers upon arrival, replacing the previous pilot programs.
+          This program allows Canadian employers to hire foreign workers to fill
+          jobs with significant labour shortages.
         </p>
       </div>
 
@@ -23,26 +24,38 @@ export default function ImmigrationProgram() {
             </h4>
             <div className="grid gap-4 sm:gap-6">
               <div className="bg-gray-50 p-4 sm:p-6 rounded-xl">
-                <h5 className="font-semibold text-blue-950 mb-2">New Pilot Programs</h5>
+                <h5 className="font-semibold text-blue-950 mb-2">
+                  New Pilot Programs
+                </h5>
                 <p className="text-sm sm:text-base text-gray-700">
-                  The Home Care Worker Immigration Pilots (HCWP) will replace the "Home Child Care Provider" and "Home Support Worker" pilot programs, which ended in 2024.
+                  We are currently hiring qualified overseas caregivers and
+                  nurses through the Temporary Foreign Workers Program.
                 </p>
               </div>
 
-              <div className="bg-gray-50 p-4 sm:p-6 rounded-xl">
-                <h5 className="font-semibold text-blue-950 mb-2">Launch Timeline</h5>
+              {/* <div className="bg-gray-50 p-4 sm:p-6 rounded-xl">
+                <h5 className="font-semibold text-blue-950 mb-2">
+                  Launch Timeline
+                </h5>
                 <div className="space-y-2 sm:space-y-3">
-                  <p className="text-sm sm:text-base text-gray-700">• Workers in Canada Stream - March 31, 2025</p>
-                  <p className="text-sm sm:text-base text-gray-700">• Applicants not working in Canada - June, 2025</p>
+                  <p className="text-sm sm:text-base text-gray-700">
+                    • Workers in Canada Stream - March 31, 2025
+                  </p>
+                  <p className="text-sm sm:text-base text-gray-700">
+                    • Applicants not working in Canada - June, 2025
+                  </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
           {/* Important Notice */}
           <div className="bg-blue-50 border-l-4 border-blue-500 p-4 sm:p-6 rounded-r-xl">
             <p className="text-sm sm:text-base text-blue-900 font-medium">
-              We are currently accepting applications for both streams. Applicants from outside Canada can apply now and start their application process for the second stream which will launch later in June, 2025.
+              We are currently accepting applications for both streams.
+              Applicants from outside Canada can apply now and start their
+              application process for the second stream which will launch later
+              in June, 2025.
             </p>
           </div>
 
@@ -61,12 +74,13 @@ export default function ImmigrationProgram() {
                   Minimum language proficiency (CLB 4 in English or French)
                 </li>
                 <li className="flex items-center">
-                  <span className="mr-3">•</span>
-                  A credential equivalent to a Canadian high school diploma
+                  <span className="mr-3">•</span>A credential equivalent to a
+                  Canadian high school diploma
                 </li>
                 <li className="flex items-center">
                   <span className="mr-3">•</span>
-                  Proof of relevant experience or training in a home care occupation
+                  Proof of relevant experience or training in a home care
+                  occupation
                 </li>
               </ul>
             </div>
