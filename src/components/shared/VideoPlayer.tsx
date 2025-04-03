@@ -11,9 +11,14 @@ interface VideoPlayerProps {
   className?: string;
 }
 
-export default function VideoPlayer({ src, poster, title, className = "" }: VideoPlayerProps) {
+export default function VideoPlayer({
+  src,
+  poster,
+  title,
+  className = "",
+}: VideoPlayerProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const playerRef = useRef<Plyr>();
+  const playerRef = useRef<Plyr | null>(null);
   const [error, setError] = useState<string>("");
 
   useEffect(() => {
@@ -22,13 +27,13 @@ export default function VideoPlayer({ src, poster, title, className = "" }: Vide
     // Initialize Plyr
     playerRef.current = new Plyr(videoRef.current, {
       controls: [
-        'play-large',
-        'play',
-        'progress',
-        'current-time',
-        'mute',
-        'volume',
-        'fullscreen'
+        "play-large",
+        "play",
+        "progress",
+        "current-time",
+        "mute",
+        "volume",
+        "fullscreen",
       ],
       hideControls: false, // Changed to false for debugging
       resetOnEnd: true,
@@ -40,21 +45,21 @@ export default function VideoPlayer({ src, poster, title, className = "" }: Vide
     // Add event listeners for debugging
     const video = videoRef.current;
 
-    video.addEventListener('error', (e) => {
-      console.error('Video Error:', e);
+    video.addEventListener("error", (e) => {
+      console.error("Video Error:", e);
       const error = video.error;
-      setError(error ? `Error: ${error.message}` : 'Unknown error occurred');
+      setError(error ? `Error: ${error.message}` : "Unknown error occurred");
     });
 
-    video.addEventListener('loadeddata', () => {
-      console.log('Video loaded successfully');
+    video.addEventListener("loadeddata", () => {
+      console.log("Video loaded successfully");
     });
 
     // Cleanup
     return () => {
       playerRef.current?.destroy();
-      video.removeEventListener('error', () => {});
-      video.removeEventListener('loadeddata', () => {});
+      video.removeEventListener("error", () => {});
+      video.removeEventListener("loadeddata", () => {});
     };
   }, []);
 
@@ -76,8 +81,8 @@ export default function VideoPlayer({ src, poster, title, className = "" }: Vide
       >
         <source src={src} type="video/mp4" />
         {/* Add more source formats for better compatibility */}
-        <source src={src.replace('.mp4', '.webm')} type="video/webm" />
-        <source src={src.replace('.mp4', '.ogg')} type="video/ogg" />
+        <source src={src.replace(".mp4", ".webm")} type="video/webm" />
+        <source src={src.replace(".mp4", ".ogg")} type="video/ogg" />
         Your browser does not support the video tag.
       </video>
 
@@ -96,7 +101,10 @@ export default function VideoPlayer({ src, poster, title, className = "" }: Vide
         .video-player-wrapper .plyr {
           --plyr-color-main: #0891b2;
           --plyr-border-radius: 1rem;
-          --plyr-video-controls-background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));
+          --plyr-video-controls-background: linear-gradient(
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.8)
+          );
         }
 
         .video-player-wrapper .plyr--video {
@@ -118,4 +126,3 @@ export default function VideoPlayer({ src, poster, title, className = "" }: Vide
     </div>
   );
 }
-
