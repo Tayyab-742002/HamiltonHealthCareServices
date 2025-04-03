@@ -2,21 +2,9 @@
 
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { useEffect, useRef } from "react";
+import VideoPlayer from "@/components/shared/VideoPlayer";
 
 export default function JoinTeam() {
-  const videoRef = useRef<HTMLVideoElement>(null);
-  const whatWeDoVideoRef = useRef<HTMLVideoElement>(null);
-
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.load();
-    }
-    if (whatWeDoVideoRef.current) {
-      whatWeDoVideoRef.current.load();
-    }
-  }, []);
-
   return (
     <section
       className="relative py-10 md:py-16 bg-gradient-to-b from-white via-gray-50 to-white"
@@ -46,27 +34,16 @@ export default function JoinTeam() {
           {/* What We Do Video */}
           <div className="relative rounded-2xl overflow-hidden shadow-[0_10px_30px_rgba(8,_112,_184,_0.4)] transform transition-all duration-300 hover:shadow-[0_10px_30px_rgba(8,_112,_184,_0.3)]">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-cyan-500/10 animate-pulse"></div>
-            <div className="aspect-w-16 aspect-h-9 relative z-10">
-              <video
-                ref={whatWeDoVideoRef}
-                className="w-full h-full object-cover rounded-2xl"
-                controls
-                preload="metadata"
-                poster="/services-hero.jpg"
-                style={{
-                  boxShadow: "inset 0 0 50px rgba(0,0,0,0.2)",
-                }}
-              >
-                <source src="/whatwedo.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </div>
+            <VideoPlayer
+              src="/whatwedo.mp4"
+              poster="/services-hero.jpg"
+              title="What We Do"
+              className="aspect-video"
+            />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent pointer-events-none z-20"></div>
           </div>
-          {/* What We Do Video Caption */}
           <p className="text-center text-gray-600 mt-4 text-sm italic">
-            Discover how Hamilton Healthcare Services is making a difference in
-            healthcare
+            Discover how Hamilton Healthcare Services is making a difference in healthcare
           </p>
         </div>
 
@@ -99,24 +76,14 @@ export default function JoinTeam() {
           {/* Current Opportunities Video */}
           <div className="relative rounded-2xl overflow-hidden shadow-[0_10px_30px_rgba(8,_112,_184,_0.4)] transform transition-all duration-300 hover:shadow-[0_10px_30px_rgba(8,_112,_184,_0.3)]">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-cyan-500/10 animate-pulse"></div>
-            <div className="aspect-w-16 aspect-h-9 relative z-10">
-              <video
-                ref={videoRef}
-                className="w-full h-full object-cover rounded-2xl"
-                controls
-                preload="metadata"
-                poster="/recruite-poster.jpg"
-                style={{
-                  boxShadow: "inset 0 0 50px rgba(0,0,0,0.2)",
-                }}
-              >
-                <source src="/recruite.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </div>
+            <VideoPlayer
+              src="/recruite.mp4"
+              poster="/recruite-poster.jpg"
+              title="Join Our Team"
+              className="aspect-video"
+            />
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent pointer-events-none z-20"></div>
           </div>
-          {/* Current Opportunities Video Caption */}
           <p className="text-center text-gray-600 mt-4 text-sm italic">
             Join our team and be part of something meaningful
           </p>
