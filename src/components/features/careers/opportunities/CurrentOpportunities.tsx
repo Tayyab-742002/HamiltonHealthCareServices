@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import ImmigrationProgram from "./ImmigrationProgram";
+import ImmigrationProgram from "./TFW";
 
 export default function CurrentOpportunities() {
   const positions = [
