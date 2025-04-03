@@ -1,6 +1,18 @@
 "use client";
 
-import VideoPlayer from "@/components/shared/VideoPlayer";
+import dynamic from 'next/dynamic';
+
+// Dynamically import VideoPlayer with no SSR
+const VideoPlayer = dynamic(() => import('@/components/shared/VideoPlayer'), {
+  ssr: false,
+  loading: () => (
+    <div className="aspect-video bg-gray-200 animate-pulse rounded-2xl">
+      <div className="w-full h-full flex items-center justify-center">
+        <span className="text-gray-400">Loading video player...</span>
+      </div>
+    </div>
+  ),
+});
 
 export default function ImmigrationProgram() {
   return (
