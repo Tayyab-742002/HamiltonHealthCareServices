@@ -142,6 +142,7 @@ export default function VideoPlayer({
           overflow: hidden;
           width: 100%;
           height: 100%;
+          aspect-ratio: 16/9;
         }
 
         .video-player-wrapper .plyr {
@@ -168,11 +169,33 @@ export default function VideoPlayer({
           object-fit: cover;
         }
 
+        /* Add poster styles */
+        .plyr__poster {
+          background-size: cover;
+          background-position: center;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 1;
+        }
+
+        video[poster] {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+        }
+
+        .plyr__video-wrapper {
+          height: 100%;
+          width: 100%;
+        }
+
         .plyr__controls {
           opacity: 1 !important;
         }
 
-        /* Center the play button */
         .plyr__control--overlaid {
           position: absolute;
           top: 50%;
@@ -181,7 +204,7 @@ export default function VideoPlayer({
           background: var(--plyr-color-main);
           border: 0;
           border-radius: 100%;
-          padding: 1.5rem; /* Reduced from 2.5rem */
+          padding: 1.5rem;
           width: auto;
           height: auto;
           display: flex;
@@ -190,10 +213,9 @@ export default function VideoPlayer({
           transition: all 0.3s ease;
         }
 
-        /* Adjust the size of the play icon */
         .plyr__control--overlaid svg {
-          width: 1.5rem; /* Reduced from 2.5rem */
-          height: 1.5rem; /* Reduced from 2.5rem */
+          width: 1.5rem;
+          height: 1.5rem;
           left: 1px;
           position: relative;
         }
@@ -204,7 +226,6 @@ export default function VideoPlayer({
           transform: translate(-50%, -50%) scale(1.1);
         }
 
-        /* Ensure the play button container is properly sized and centered */
         .plyr--video .plyr__controls {
           padding: 1.5rem;
           display: flex;
@@ -212,7 +233,6 @@ export default function VideoPlayer({
           justify-content: space-between;
         }
 
-        /* Responsive adjustments */
         @media (max-width: 768px) {
           .plyr__control--overlaid {
             padding: 1.25rem;
@@ -238,6 +258,7 @@ export default function VideoPlayer({
     </div>
   );
 }
+
 
 
 
