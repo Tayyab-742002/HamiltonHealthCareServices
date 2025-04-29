@@ -25,7 +25,7 @@ export default function ContactInfo() {
     },
     {
       title: "Email Us",
-      info: "info@hamiltonhealthcareservices.com",
+      info: "recruitment@hamiltonhealthcareservices.com",
       icon: (
         <svg
           className="w-6 h-6"
@@ -80,9 +80,9 @@ export default function ContactInfo() {
                 {detail.info.includes("@") ? (
                   <Link
                     href="mailto:info@hamiltonhealthcareservices.com"
-                    className="hover:text-primary transition-colors underline text-sm text-blue-950"
+                    className="hover:text-primary text-xs transition-colors underline md:text-sm text-blue-950"
                   >
-                    info@hamiltonhealthcareservices.com
+                    {detail.info}
                   </Link>
                 ) : (
                   <p className="text-gray-600">{detail.info}</p>

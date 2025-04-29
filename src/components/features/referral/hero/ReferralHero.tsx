@@ -18,7 +18,7 @@ export default function ReferralHero() {
           Overseas Caregiver Referral Program
         </h1>
         <p className="text-xl max-w-2xl">
-          Earn $200 CAD for Every Successful Referral!
+          Earn for Every Successful Referral!
         </p>
       </div>
     </section>

@@ -18,7 +18,7 @@ export default function ReferralProgram() {
         "Once your referred candidate secures a job offer from Hamilton Healthcare, you will be paid the referral bonus.",
     },
     {
-      title: "Receive Your $200 CAD Reward",
+      title: "Receive Your Reward",
       description:
         "You will be paid once the referred candidate has accepted the job offer.",
     },
@@ -55,7 +55,7 @@ export default function ReferralProgram() {
             <p className="text-lg text-gray-700 leading-relaxed mt-4">
               In line with our recruitment process, we invite healthcare
               professionals, recruiters, and social media content creators to
-              join our Referral Recruitment Program and earn $200 CAD for each
+              join our Referral Recruitment Program and earn  for each
               candidate you refer who successfully secures a job offer to work
               for our healthcare establishment.
             </p>
