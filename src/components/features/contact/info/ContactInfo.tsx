@@ -79,13 +79,15 @@ export default function ContactInfo() {
                 </h3>
                 {detail.info.includes("@") ? (
                   <Link
-                    href="mailto:info@hamiltonhealthcareservices.com"
-                    className="hover:text-primary text-xs transition-colors underline md:text-sm text-blue-950"
+                    href={`mailto:${detail.info}`}
+                    className="hover:text-primary text-[12px] transition-colors underline md:text-base text-blue-950"
                   >
                     {detail.info}
                   </Link>
                 ) : (
-                  <p className="text-gray-600">{detail.info}</p>
+                  <p className="text-gray-600 text-xs md:text-base">
+                    {detail.info}
+                  </p>
                 )}
               </div>
             </div>

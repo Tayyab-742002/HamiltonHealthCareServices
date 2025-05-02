@@ -48,7 +48,7 @@ export default function OfficeLocations() {
                 <p className="pt-2">{office.phone}</p> */}
                 <a
                   href={`mailto:${office.email}`}
-                  className="hover:text-primary transition-colors underline text-blue-950"
+                  className="hover:text-primary transition-colors text-[12px] md:text-base underline text-blue-950"
                 >
                   {office.email}
                 </a>
