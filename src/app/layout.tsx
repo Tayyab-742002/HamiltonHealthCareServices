@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
+import { Analytics } from "@vercel/analytics/next";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -18,11 +18,11 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        rel: 'icon',
-        url: '/icon?<generated>',
-        type: 'image/x-icon',
-        sizes: 'any'
-      }
+        rel: "icon",
+        url: "/icon?<generated>",
+        type: "image/x-icon",
+        sizes: "any",
+      },
     ],
     apple: [
       {
@@ -41,7 +41,13 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
   applicationName: "Hamilton Healthcare Services",
-  keywords: ["healthcare", "staffing", "medical staffing", "healthcare jobs", "Hamilton healthcare"],
+  keywords: [
+    "healthcare",
+    "staffing",
+    "medical staffing",
+    "healthcare jobs",
+    "Hamilton healthcare",
+  ],
   authors: [{ name: "Hamilton Healthcare Services" }],
   creator: "Hamilton Healthcare Services",
   publisher: "Hamilton Healthcare Services",
@@ -65,9 +71,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
 }
-
-
