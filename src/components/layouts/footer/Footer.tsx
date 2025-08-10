@@ -208,6 +208,27 @@ export function Footer() {
               Hamilton Healthcare Services LTD 2025
             </div>
           </div>
+          <div className="flex mt-10 justify-center items-center">
+            <div className=" flex items-center  text-xs">
+              Powered by
+              <Image
+                src="/solvspot.png"
+                alt="SolvSpot"
+                width={200}
+                height={200}
+                priority
+                className="w-4 h-4 ml-1"
+              />
+              <a
+                href="https://solvspot.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#c248eb] underline"
+              >
+                SolvSpot
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
