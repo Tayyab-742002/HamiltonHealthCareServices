@@ -198,7 +198,10 @@ export function Footer() {
                 // >
                 //   {title}
                 // </Link>
-                <p className="text-sm hover:text-primary-foreground transition-colors underline">
+                <p
+                  key={title}
+                  className="text-sm hover:text-primary-foreground transition-colors underline"
+                >
                   {title}
                 </p>
               ))}

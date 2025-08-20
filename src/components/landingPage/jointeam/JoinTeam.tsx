@@ -35,7 +35,7 @@ export default function JoinTeam() {
           <div className="relative rounded-2xl overflow-hidden shadow-[0_10px_30px_rgba(8,_112,_184,_0.4)] transform transition-all duration-300 hover:shadow-[0_10px_30px_rgba(8,_112,_184,_0.3)]">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-cyan-500/10 animate-pulse"></div>
             <VideoPlayer
-              src="/whatwedo.mp4"
+              src="https://pub-20f982007aa54df4849bcd969b89a1bf.r2.dev/whatwedo.mp4"
               poster="/services-hero.jpg"
               title="What We Do"
               className="aspect-video"
@@ -43,7 +43,8 @@ export default function JoinTeam() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent pointer-events-none z-20"></div>
           </div>
           <p className="text-center text-gray-600 mt-4 text-sm italic">
-            Discover how Hamilton Healthcare Services is making a difference in healthcare
+            Discover how Hamilton Healthcare Services is making a difference in
+            healthcare
           </p>
         </div>
 
@@ -77,7 +78,7 @@ export default function JoinTeam() {
           <div className="relative rounded-2xl overflow-hidden shadow-[0_10px_30px_rgba(8,_112,_184,_0.4)] transform transition-all duration-300 hover:shadow-[0_10px_30px_rgba(8,_112,_184,_0.3)]">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-cyan-500/10 animate-pulse"></div>
             <VideoPlayer
-              src="/recruite.mp4"
+              src="https://pub-20f982007aa54df4849bcd969b89a1bf.r2.dev/recruite.mp4"
               poster="/recruite-poster.jpg"
               title="Join Our Team"
               className="aspect-video"
